@@ -14,9 +14,15 @@ int main()
     arreglo.insertar_final("Seis");
     arreglo.insertar_final("Siete");
     arreglo.insertar_final("Ocho");
+
+    for (size_t i = 0; i < arreglo.size(); i++)
+    {
+        cout << arreglo[i] << " ";
+    }
+
     arreglo.insertar_inicio("Nueve");
     arreglo.insertar_inicio("Diez");
-
+    cout << endl;
     for (size_t i = 0; i < arreglo.size(); i++)
     {
         cout << arreglo[i] << " ";
